@@ -1,0 +1,3018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/merrick/Library/CloudStorage/OneDrive-Personal/Galahad Labs/EchoCore/EchoCore.kicad_sch</source>
+    <date>Wednesday, November 29, 2023 at 07:33:26 PM</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>EchoCore</title>
+        <company>Galahad Labs</company>
+        <rev>A</rev>
+        <date>2023-11-16</date>
+        <source>EchoCore.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/">
+      <title_block>
+        <title>EchoCore Power Supply</title>
+        <company>Galahad Labs</company>
+        <rev>A</rev>
+        <date>2023-11-16</date>
+        <source>power_supply.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/">
+      <title_block>
+        <title>EchoCore Analog Front-End</title>
+        <company>Galahad Labs</company>
+        <rev>A</rev>
+        <date>2023-11-16</date>
+        <source>analog_frontend.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Connectors and Input Protection/" tstamps="/1014d99c-29a8-4f9c-b829-fe95b9d05bc9/">
+      <title_block>
+        <title>EchoCore Connectors and Input Protection</title>
+        <company>Galahad Labs</company>
+        <rev>A</rev>
+        <date>2023-11-16</date>
+        <source>connectors_and_input_protection.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C101">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C1525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KA5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL05B104KA5NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6059dc82-bf6b-4094-99ab-c25c87238910</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C1525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KA5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL05B104KA5NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3840a3cb-6734-4acd-8830-7db5ae730301</tstamps>
+    </comp>
+    <comp ref="C103">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C19666</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL10B475KQ8NQNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL10B475KQ8NQNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C19666"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85ce46fe-b380-44d3-9284-db27afebbc30</tstamps>
+    </comp>
+    <comp ref="C104">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C1525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KA5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL05B104KA5NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40620999-30d7-4aba-8cf6-4b2facce65e2</tstamps>
+    </comp>
+    <comp ref="C105">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C1525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KA5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL05B104KA5NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63ec7edc-529b-4744-8dfb-79e1a9e5f11f</tstamps>
+    </comp>
+    <comp ref="C106">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C1525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KA5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL05B104KA5NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64b4ce70-e6e9-4e4e-9b1d-552159ddb3e2</tstamps>
+    </comp>
+    <comp ref="C107">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C1525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KA5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL05B104KA5NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d24b9be-d01f-4cc1-bb7a-44af3fc3102e</tstamps>
+    </comp>
+    <comp ref="C108">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Ceramic C0G only</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM1555C1E103GE01D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM1555C1E103GE01D"/>
+      <property name="Comments" value="Ceramic C0G only"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4745a79-07d7-4db1-8c6a-eaafb304a33b</tstamps>
+    </comp>
+    <comp ref="C109">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C15849</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL10B105KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL10B105KP8NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c83660a8-e8d9-4326-83e8-adbedff66b95</tstamps>
+    </comp>
+    <comp ref="C110">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C15849</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL10B105KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL10B105KP8NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e128b3c1-0840-4096-ba8a-58f96079f988</tstamps>
+    </comp>
+    <comp ref="C111">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">Ceramic C0G or X7R</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21C100CBANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL21C100CBANNNC"/>
+      <property name="Comments" value="Ceramic C0G or X7R"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd7b2aca-cf7c-4ec7-8d4a-e5fbb3106f5c</tstamps>
+    </comp>
+    <comp ref="C112">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">Ceramic C0G or X7R</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21C100CBANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL21C100CBANNNC"/>
+      <property name="Comments" value="Ceramic C0G or X7R"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca665304-1040-487f-95a0-629ba440e56c</tstamps>
+    </comp>
+    <comp ref="C113">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C1525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KA5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL05B104KA5NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74b3fb40-21f1-4e75-ad2e-54f6203c440b</tstamps>
+    </comp>
+    <comp ref="C114">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C1525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KA5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL05B104KA5NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91727829-d5d3-4f74-8acd-2de88f656c0b</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>EAST1616RGBB2</value>
+      <footprint>_Galahad_Labs_Footprints:EAST1616RGBB2_RGBA</footprint>
+      <fields>
+        <field name="Comments">RGB LED</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Everlight Electronics Co Ltd</field>
+        <field name="Manufacturer Part Number">EAST1616RGBB2</field>
+      </fields>
+      <libsource lib="Device" part="LED_RGBA" description="RGB LED, red/green/blue/anode"/>
+      <property name="Manufacturer" value="Everlight Electronics Co Ltd"/>
+      <property name="Manufacturer Part Number" value="EAST1616RGBB2"/>
+      <property name="Comments" value="RGB LED"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="RGB LED, red/green/blue/anode"/>
+      <property name="ki_keywords" value="LED RGB diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3f5329e-bc75-4881-b446-5c228e0b274d</tstamps>
+    </comp>
+    <comp ref="L101">
+      <value>10n</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">DCR &gt; 0.15</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">LQG15WZ10NH02D</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="LQG15WZ10NH02D"/>
+      <property name="Comments" value="DCR &gt; 0.15"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10e1c171-0e70-40d9-b9b4-b6d5f863f441</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C25804</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer Part Number">CRCW060310K0FKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW060310K0FKEAHP"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>832aa55a-ef3f-478f-8fd5-7a4b0ff15dc6</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C25076</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer Part Number">CRCW0402100RFKEDHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW0402100RFKEDHP"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C25076"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f32c15df-1cb5-40dd-b8d2-84ac29445fa6</tstamps>
+    </comp>
+    <comp ref="R103">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C25076</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer Part Number">CRCW0402100RFKEDHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW0402100RFKEDHP"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C25076"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e139f7eb-67d7-4738-997e-46151be3ac35</tstamps>
+    </comp>
+    <comp ref="R104">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C25804</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer Part Number">CRCW060310K0FKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW060310K0FKEAHP"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>662826ed-7ee5-46c5-8e42-b46b2ece3db3</tstamps>
+    </comp>
+    <comp ref="R105">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C25076</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer Part Number">CRCW0402100RFKEDHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW0402100RFKEDHP"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C25076"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>818d3e06-160d-4df9-bc5c-a2b3bb95c510</tstamps>
+    </comp>
+    <comp ref="R106">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C25076</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer Part Number">CRCW0402100RFKEDHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW0402100RFKEDHP"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C25076"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0591308-4ca7-4146-bd38-ba48a2c3cb90</tstamps>
+    </comp>
+    <comp ref="R107">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C25804</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer Part Number">CRCW060310K0FKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW060310K0FKEAHP"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb65bb98-3420-4c49-b240-c7af71826b36</tstamps>
+    </comp>
+    <comp ref="R108">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C25804</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer Part Number">CRCW060310K0FKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW060310K0FKEAHP"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6a264e9-160e-4aef-b4bd-a29b45d0207d</tstamps>
+    </comp>
+    <comp ref="SW102">
+      <value>PTS645SM43SMTR92 LFS</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="Comments">Temporary switch</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Manufacturer Part Number">PTS645SM43SMTR92LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Manufacturer Part Number" value="PTS645SM43SMTR92LFS"/>
+      <property name="Comments" value="Temporary switch"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1576d63d-b2c4-4799-a6fa-2ff6a72d602f</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>BMI323</value>
+      <footprint>Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm</footprint>
+      <datasheet>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi323-ds000.pdf</datasheet>
+      <fields>
+        <field name="Comments">IMU</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Bosch Sensortec</field>
+        <field name="Manufacturer Part Number">BMI323</field>
+      </fields>
+      <libsource lib="_Galahad_Labs_Symbols" part="BMI323" description="Small, versatile 6DoF sensor module, LGA-14"/>
+      <property name="Manufacturer" value="Bosch Sensortec"/>
+      <property name="Manufacturer Part Number" value="BMI323"/>
+      <property name="Comments" value="IMU"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Small, versatile 6DoF sensor module, LGA-14"/>
+      <property name="ki_keywords" value="Bosch IMU small versatile inertial measurement unit"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f811a53b-6c9a-4777-a6f1-9b414125bb24</tstamps>
+    </comp>
+    <comp ref="U102">
+      <value>STM32F070CBTx</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32f070cb.pdf</datasheet>
+      <fields>
+        <field name="Comments">MCU</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Manufacturer Part Number">STM32F070CBT6</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F0" part="STM32F070CBTx" description="STMicroelectronics Arm Cortex-M0 MCU, 128KB flash, 16KB RAM, 48 MHz, 2.4-3.6V, 37 GPIO, LQFP48"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Manufacturer Part Number" value="STM32F070CBT6"/>
+      <property name="Comments" value="MCU"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="STMicroelectronics Arm Cortex-M0 MCU, 128KB flash, 16KB RAM, 48 MHz, 2.4-3.6V, 37 GPIO, LQFP48"/>
+      <property name="ki_keywords" value="Arm Cortex-M0 STM32F0 STM32F0x0 Value Line"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bf204bc-f8b0-4a1c-a708-b453956e6e78</tstamps>
+    </comp>
+    <comp ref="Y101">
+      <value>ECS-160-10-36-CKM</value>
+      <footprint>_Galahad_Labs_Footprints:Crystal_SMD_ECS_ECX-2236-4Pin_2.5x2.0mm</footprint>
+      <fields>
+        <field name="Comments">16 MHz Crystal</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">ECS Inc.</field>
+        <field name="Manufacturer Part Number">ECS-160-10-36-CKM-TR3</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Manufacturer" value="ECS Inc."/>
+      <property name="Manufacturer Part Number" value="ECS-160-10-36-CKM-TR3"/>
+      <property name="Comments" value="16 MHz Crystal"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EchoCore.kicad_sch"/>
+      <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef25c536-f36a-47e7-a0e8-5ad244094075</tstamps>
+    </comp>
+    <comp ref="C201">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C23630</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL10B225KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL10B225KP8NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C23630"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>6c0a0b9f-0a7c-48f2-80f4-37852b82b170</tstamps>
+    </comp>
+    <comp ref="C202">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C19666</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL10B475KQ8NQNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL10B475KQ8NQNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C19666"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>687ba34a-e58c-4a8f-aa84-e0da35e4be38</tstamps>
+    </comp>
+    <comp ref="C203">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C15849</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL10B105KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL10B105KP8NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C15849"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>32229547-8705-4fc8-bcba-4c6d0a54b511</tstamps>
+    </comp>
+    <comp ref="C204">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C15849</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL10B105KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL10B105KP8NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C15849"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>1989723f-55fa-4b9d-ab9a-eee9e6c5d6fc</tstamps>
+    </comp>
+    <comp ref="C205">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C23630</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL10B225KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL10B225KP8NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C23630"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>432f2a57-8486-498b-b834-9c5e84d9eaf7</tstamps>
+    </comp>
+    <comp ref="C206">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C15849</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL10B105KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL10B105KP8NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C15849"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>5cb57fdb-98a0-48e8-a07b-ddecc3106429</tstamps>
+    </comp>
+    <comp ref="C207">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C19666</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL10B475KQ8NQNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL10B475KQ8NQNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C19666"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>676d9d18-69db-4aa4-8742-ee2a6206cc1e</tstamps>
+    </comp>
+    <comp ref="C208">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C45783</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21A226KQCLRNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL21A226KQCLRNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C45783"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>b72e323f-225d-4c2c-ac20-ebdf35d54858</tstamps>
+    </comp>
+    <comp ref="C209">
+      <value>DNP</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">DNP</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Manufacturer Part Number">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="-"/>
+      <property name="Manufacturer Part Number" value="-"/>
+      <property name="Comments" value="DNP"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>81aec1ba-8ffd-4f03-8505-cdf88e058c3a</tstamps>
+    </comp>
+    <comp ref="C210">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C19666</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL10B475KQ8NQNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL10B475KQ8NQNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C19666"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>28759dd0-01a4-4d98-bc80-4ff1c556851f</tstamps>
+    </comp>
+    <comp ref="D201">
+      <value>5988170107F (Green)</value>
+      <footprint>_Galahad_Labs_Footprints:DIALIGHT_598-81xx</footprint>
+      <fields>
+        <field name="Comments">Power LED</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Dialight</field>
+        <field name="Manufacturer Part Number">5988170107F</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Dialight"/>
+      <property name="Manufacturer Part Number" value="5988170107F"/>
+      <property name="Comments" value="Power LED"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>30faa5e0-e88a-4a14-968e-9d28abed9126</tstamps>
+    </comp>
+    <comp ref="L201">
+      <value>10n</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">DCR &gt; 0.15</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">LQG15WZ10NH02D</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="LQG15WZ10NH02D"/>
+      <property name="Comments" value="DCR &gt; 0.15"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>5764c890-04d6-40c8-93dc-40cf4fcc69ae</tstamps>
+    </comp>
+    <comp ref="L202">
+      <value>68u</value>
+      <footprint>_Galahad_Labs_Footprints:TDK_VLS3015CX-H</footprint>
+      <fields>
+        <field name="Comments">-</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Manufacturer Part Number">VLS3015CX-680M-H</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Manufacturer" value="TDK Corporation"/>
+      <property name="Manufacturer Part Number" value="VLS3015CX-680M-H"/>
+      <property name="Comments" value="-"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>20c2be30-6c4b-4a4d-a1ed-a0501cbc79a7</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;2/5 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C17415</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Manufacturer Part Number">ESR10EZPJ100</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Manufacturer Part Number" value="ESR10EZPJ100"/>
+      <property name="Comments" value="&gt;2/5 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C17415"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>5c5ec6c0-d309-4c8b-ba14-da21412831ee</tstamps>
+    </comp>
+    <comp ref="R202">
+      <value>82k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C23254</field>
+        <field name="Manufacturer">TE Connectivity Passive Product</field>
+        <field name="Manufacturer Part Number">CRGP0603F82K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="TE Connectivity Passive Product"/>
+      <property name="Manufacturer Part Number" value="CRGP0603F82K"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C23254"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>8377ef75-fdc3-47e4-87e2-304063d58d28</tstamps>
+    </comp>
+    <comp ref="R203">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C17713</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer Part Number">CRCW080547K0FKEAHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW080547K0FKEAHP"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C17713"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>b17387c8-d580-41b4-bbe1-50ce44af615b</tstamps>
+    </comp>
+    <comp ref="R204">
+      <value>300k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C17616</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer Part Number">RCS0805300KFKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer Part Number" value="RCS0805300KFKEA"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C17616"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>2d358223-089c-4d3b-8f9c-c4ad3f1d2405</tstamps>
+    </comp>
+    <comp ref="R205">
+      <value>510k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C17733</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-PB6B5103V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Manufacturer Part Number" value="ERJ-PB6B5103V"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C17733"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>001fa0c2-77d7-4390-bafd-54420db52ea3</tstamps>
+    </comp>
+    <comp ref="R206">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C25076</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer Part Number">CRCW0402100RFKEDHP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW0402100RFKEDHP"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C25076"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>f45ccb06-566d-4758-a41e-a76670098485</tstamps>
+    </comp>
+    <comp ref="R207">
+      <value>180k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C17501</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-UP6F1803V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Manufacturer Part Number" value="ERJ-UP6F1803V"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C17501"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>f967dfeb-28c8-43ae-ad54-370cde5afff2</tstamps>
+    </comp>
+    <comp ref="R209">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C31850</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-PA3F2202V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Manufacturer Part Number" value="ERJ-PA3F2202V"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C31850"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>0a9ec38f-7199-4969-84c7-4ae0c48b6ecf</tstamps>
+    </comp>
+    <comp ref="R210">
+      <value>18k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">&gt;1/4 W, low tolerance</field>
+        <field name="JLCPCB Part Number">C25810</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-PA3F1802V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Manufacturer Part Number" value="ERJ-PA3F1802V"/>
+      <property name="Comments" value="&gt;1/4 W, low tolerance"/>
+      <property name="JLCPCB Part Number" value="C25810"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>202593e4-ab2d-4388-9aa9-4f9a254902f2</tstamps>
+    </comp>
+    <comp ref="U201">
+      <value>LM27762</value>
+      <footprint>Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm27762.pdf</datasheet>
+      <fields>
+        <field name="Comments">Analog supply LDO</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">LM27762DSSR</field>
+      </fields>
+      <libsource lib="Regulator_SwitchedCapacitor" part="LM27762" description="Low-noise inverting charge pump with both positive and negative LDO's, with 2.7V-5.5V input to +1.5 to +5V and -1.5 to -5V Output Voltage, WSON-12"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Manufacturer Part Number" value="LM27762DSSR"/>
+      <property name="Comments" value="Analog supply LDO"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="Low-noise inverting charge pump with both positive and negative LDO's, with 2.7V-5.5V input to +1.5 to +5V and -1.5 to -5V Output Voltage, WSON-12"/>
+      <property name="ki_keywords" value="Low-noise inverting charge pump with both positive and negative LDO's"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>68a06a9e-eb04-4adf-a4ad-ee84419378d6</tstamps>
+    </comp>
+    <comp ref="U202">
+      <value>TLV62568DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv62568.pdf</datasheet>
+      <fields>
+        <field name="Comments">Digital supply buck</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">TLV62568DBVR</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TLV62568DBV" description="High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-23-5"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Manufacturer Part Number" value="TLV62568DBVR"/>
+      <property name="Comments" value="Digital supply buck"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <property name="ki_description" value="High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-23-5"/>
+      <property name="ki_keywords" value="Step-Down Buck DC-DC Regulator Adjustable"/>
+      <sheetpath names="/Power Supply/" tstamps="/985c5842-f945-4933-8873-6e279484fecf/"/>
+      <tstamps>4e800792-8cf3-41eb-af4e-538adf35e55c</tstamps>
+    </comp>
+    <comp ref="C301">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Ceramic C0G only</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM1555C1E103GE01D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM1555C1E103GE01D"/>
+      <property name="Comments" value="Ceramic C0G only"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>c7b28813-d23a-432c-b6cc-ddefdad5baf3</tstamps>
+    </comp>
+    <comp ref="C302">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Ceramic C0G only</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM1555C1E103GE01D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM1555C1E103GE01D"/>
+      <property name="Comments" value="Ceramic C0G only"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>2a142f3f-f016-422c-963c-8a0d1c302478</tstamps>
+    </comp>
+    <comp ref="C303">
+      <value>150p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">Ceramic C0G only</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">CC0805FRNPO9BN151</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="CC0805FRNPO9BN151"/>
+      <property name="Comments" value="Ceramic C0G only"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>5690191c-f278-4e0a-b12c-fac723ad56ca</tstamps>
+    </comp>
+    <comp ref="C304">
+      <value>150p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">Ceramic C0G only</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">CC0805FRNPO9BN151</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="CC0805FRNPO9BN151"/>
+      <property name="Comments" value="Ceramic C0G only"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>c23d233b-1f9e-4b6c-bc73-ce302a435869</tstamps>
+    </comp>
+    <comp ref="C305">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C15849</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL10B105KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL10B105KP8NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C15849"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>4e42fdff-faac-4031-9be6-eed97113192d</tstamps>
+    </comp>
+    <comp ref="C306">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C1525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KA5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL05B104KA5NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C1525"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>a43c1405-2ca4-489f-94ab-d3adefd3287f</tstamps>
+    </comp>
+    <comp ref="C307">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C1525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KA5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL05B104KA5NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C1525"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>93a2b4ec-e9c6-43ba-a6a5-bdd14a89b467</tstamps>
+    </comp>
+    <comp ref="C308">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C15849</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL10B105KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL10B105KP8NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C15849"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>497f5f33-3770-404c-bc3a-0578f385ecab</tstamps>
+    </comp>
+    <comp ref="C309">
+      <value>150p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">Ceramic C0G only</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">CC0805FRNPO9BN151</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="CC0805FRNPO9BN151"/>
+      <property name="Comments" value="Ceramic C0G only"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>a92d4be6-c9b7-4395-a9cc-21a9ea10307e</tstamps>
+    </comp>
+    <comp ref="C310">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM188R71E224JA88J</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM188R71E224JA88J"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>1e83d998-a6c4-443f-a7ef-1e65ee8453c8</tstamps>
+    </comp>
+    <comp ref="C311">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C1525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KA5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL05B104KA5NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C1525"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>2eaf3727-0ed4-4193-a744-efb9eb388263</tstamps>
+    </comp>
+    <comp ref="C312">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C1525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KA5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL05B104KA5NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C1525"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>a783f617-5c43-4626-813b-282ec399d42b</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Very low tolerance</field>
+        <field name="JLCPCB Part Number">C21190</field>
+        <field name="Manufacturer">Susumu</field>
+        <field name="Manufacturer Part Number">RG1608P-102-B-T5</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Susumu"/>
+      <property name="Manufacturer Part Number" value="RG1608P-102-B-T5"/>
+      <property name="Comments" value="Very low tolerance"/>
+      <property name="JLCPCB Part Number" value="C21190"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>4e813011-633b-4622-9b42-112518cdc968</tstamps>
+    </comp>
+    <comp ref="R302">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Very low tolerance</field>
+        <field name="JLCPCB Part Number">C21190</field>
+        <field name="Manufacturer">Susumu</field>
+        <field name="Manufacturer Part Number">RG1608P-102-B-T5</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Susumu"/>
+      <property name="Manufacturer Part Number" value="RG1608P-102-B-T5"/>
+      <property name="Comments" value="Very low tolerance"/>
+      <property name="JLCPCB Part Number" value="C21190"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>7028d205-8767-4bcf-b37b-6f7983cd2d70</tstamps>
+    </comp>
+    <comp ref="R303">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Very low tolerance</field>
+        <field name="JLCPCB Part Number">C21190</field>
+        <field name="Manufacturer">Susumu</field>
+        <field name="Manufacturer Part Number">RG1608P-102-B-T5</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Susumu"/>
+      <property name="Manufacturer Part Number" value="RG1608P-102-B-T5"/>
+      <property name="Comments" value="Very low tolerance"/>
+      <property name="JLCPCB Part Number" value="C21190"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>eff92194-5528-4433-ac8c-347f7208ff01</tstamps>
+    </comp>
+    <comp ref="R304">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Very low tolerance</field>
+        <field name="JLCPCB Part Number">C21190</field>
+        <field name="Manufacturer">Susumu</field>
+        <field name="Manufacturer Part Number">RG1608P-102-B-T5</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Susumu"/>
+      <property name="Manufacturer Part Number" value="RG1608P-102-B-T5"/>
+      <property name="Comments" value="Very low tolerance"/>
+      <property name="JLCPCB Part Number" value="C21190"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>0edf512a-861c-4338-9044-0bbb7b4ac61d</tstamps>
+    </comp>
+    <comp ref="R305">
+      <value>100M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">-</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RC0805JR-13100ML</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RC0805JR-13100ML"/>
+      <property name="Comments" value="-"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>1b8e4cb8-d001-4909-8262-59427402b3d5</tstamps>
+    </comp>
+    <comp ref="R306">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Very low tolerance</field>
+        <field name="JLCPCB Part Number">C21190</field>
+        <field name="Manufacturer">Susumu</field>
+        <field name="Manufacturer Part Number">RG1608P-102-B-T5</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Susumu"/>
+      <property name="Manufacturer Part Number" value="RG1608P-102-B-T5"/>
+      <property name="Comments" value="Very low tolerance"/>
+      <property name="JLCPCB Part Number" value="C21190"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>6171346a-6552-4f44-bcea-5270cba0adcc</tstamps>
+    </comp>
+    <comp ref="R307">
+      <value>100M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">-</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RC0805JR-13100ML</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RC0805JR-13100ML"/>
+      <property name="Comments" value="-"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>93c65ec2-e233-49dd-822a-e53dd7e1f1fd</tstamps>
+    </comp>
+    <comp ref="R308">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Very low tolerance</field>
+        <field name="JLCPCB Part Number">C21190</field>
+        <field name="Manufacturer">Susumu</field>
+        <field name="Manufacturer Part Number">RG1608P-102-B-T5</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Susumu"/>
+      <property name="Manufacturer Part Number" value="RG1608P-102-B-T5"/>
+      <property name="Comments" value="Very low tolerance"/>
+      <property name="JLCPCB Part Number" value="C21190"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>046eab0e-4b9a-4167-a5dc-80efb56a991f</tstamps>
+    </comp>
+    <comp ref="R310">
+      <value>100M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Comments">-</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RC0805JR-13100ML</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RC0805JR-13100ML"/>
+      <property name="Comments" value="-"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>dcd78883-ea49-490f-88a5-b27f4c214e76</tstamps>
+    </comp>
+    <comp ref="R311">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">-</field>
+        <field name="JLCPCB Part Number">C17168</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer Part Number">CR0402-J/-000GLF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Bourns Inc."/>
+      <property name="Manufacturer Part Number" value="CR0402-J/-000GLF"/>
+      <property name="Comments" value="-"/>
+      <property name="JLCPCB Part Number" value="C17168"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>4f4c9667-a8f3-4faf-a445-a587ace47a51</tstamps>
+    </comp>
+    <comp ref="U301">
+      <value>OPA4376</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/opa376.pdf</datasheet>
+      <fields>
+        <field name="Comments">Analog buffer</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">OPA4376AIPW</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="OPA4376" description="Quad Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Manufacturer Part Number" value="OPA4376AIPW"/>
+      <property name="Comments" value="Analog buffer"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="Quad Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5"/>
+      <property name="ki_keywords" value="quad opamp"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>c2945b09-fd6b-40dc-ba0d-9d491853fe32 a26bd3f4-f943-41df-91c7-70d58e40b9c3 5f028a7c-fdcc-447d-9a3d-0c8edcfbcf8b 7817b76c-5e4b-42a1-b22f-31902da65bc6 111cf2d2-6cf5-4773-ba0c-311f0671e5f1</tstamps>
+    </comp>
+    <comp ref="U302">
+      <value>ADS131M02</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ads131m02.pdf</datasheet>
+      <fields>
+        <field name="Comments">ADC</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">ADS131M02IPWT</field>
+      </fields>
+      <libsource lib="_Galahad_Labs_Symbols" part="ADS131M02" description="24-bit ΔΣ ADC, 2 Channels, SPI compatible, PGA 1 to 128, TSSOP-20"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Manufacturer Part Number" value="ADS131M02IPWT"/>
+      <property name="Comments" value="ADC"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Analog Front-end"/>
+      <property name="Sheetfile" value="analog_frontend.kicad_sch"/>
+      <property name="ki_description" value="24-bit ΔΣ ADC, 2 Channels, SPI compatible, PGA 1 to 128, TSSOP-20"/>
+      <property name="ki_keywords" value="24bit ΔΣ ADC 2 Channels PGA SPI"/>
+      <sheetpath names="/Analog Front-end/" tstamps="/b4d60d83-7176-46d2-93eb-606add6d22d2/"/>
+      <tstamps>275159a1-a44e-479a-baa9-4e06c057e30b</tstamps>
+    </comp>
+    <comp ref="C401">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Prefer ceramic X7R</field>
+        <field name="JLCPCB Part Number">C1525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL05B104KA5NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL05B104KA5NNNC"/>
+      <property name="Comments" value="Prefer ceramic X7R"/>
+      <property name="JLCPCB Part Number" value="C1525"/>
+      <property name="Sheetname" value="Connectors and Input Protection"/>
+      <property name="Sheetfile" value="connectors_and_input_protection.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Connectors and Input Protection/" tstamps="/1014d99c-29a8-4f9c-b829-fe95b9d05bc9/"/>
+      <tstamps>3e3ae238-f61c-42e7-bcc5-813c0a662312</tstamps>
+    </comp>
+    <comp ref="FL401">
+      <value>ACM-21-900M-T</value>
+      <footprint>_Galahad_Labs_Footprints:ABRACON_ACM-21-900M-T</footprint>
+      <fields>
+        <field name="Comments">Buck inductor</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Abracon LLC</field>
+        <field name="Manufacturer Part Number">ACM-21-900M-T</field>
+      </fields>
+      <libsource lib="_Galahad_Labs_Symbols" part="Filter_EMI_CommonMode_12x43" description="EMI 2-inductor common mode filter"/>
+      <property name="Manufacturer" value="Abracon LLC"/>
+      <property name="Manufacturer Part Number" value="ACM-21-900M-T"/>
+      <property name="Comments" value="Buck inductor"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Connectors and Input Protection"/>
+      <property name="Sheetfile" value="connectors_and_input_protection.kicad_sch"/>
+      <property name="ki_description" value="EMI 2-inductor common mode filter"/>
+      <property name="ki_keywords" value="EMI common mode filter"/>
+      <sheetpath names="/Connectors and Input Protection/" tstamps="/1014d99c-29a8-4f9c-b829-fe95b9d05bc9/"/>
+      <tstamps>22cb68ee-3887-4c24-b434-84a275efeb03</tstamps>
+    </comp>
+    <comp ref="J401">
+      <value>FTSH-105-01-L-DV-K</value>
+      <footprint>_Galahad_Labs_Footprints:SAMTEC_FTSH-105-01-L-DV-K</footprint>
+      <fields>
+        <field name="Comments">SWD connector</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Samtec Inc.</field>
+        <field name="Manufacturer Part Number">FTSH-105-01-L-DV-K</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Samtec Inc."/>
+      <property name="Manufacturer Part Number" value="FTSH-105-01-L-DV-K"/>
+      <property name="Comments" value="SWD connector"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Connectors and Input Protection"/>
+      <property name="Sheetfile" value="connectors_and_input_protection.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Connectors and Input Protection/" tstamps="/1014d99c-29a8-4f9c-b829-fe95b9d05bc9/"/>
+      <tstamps>3f91a667-030a-408c-95fc-8bb12d19fddc</tstamps>
+    </comp>
+    <comp ref="J402">
+      <value>USB4105-GF-A</value>
+      <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="Comments">USB 2.0 connector (type c)</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">GCT</field>
+        <field name="Manufacturer Part Number">USB4105-GF-A</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Manufacturer" value="GCT"/>
+      <property name="Manufacturer Part Number" value="USB4105-GF-A"/>
+      <property name="Comments" value="USB 2.0 connector (type c)"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Connectors and Input Protection"/>
+      <property name="Sheetfile" value="connectors_and_input_protection.kicad_sch"/>
+      <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <sheetpath names="/Connectors and Input Protection/" tstamps="/1014d99c-29a8-4f9c-b829-fe95b9d05bc9/"/>
+      <tstamps>f54b4ad3-14d7-4374-826d-48b138378311</tstamps>
+    </comp>
+    <comp ref="J403">
+      <value>JST-PH_01x04</value>
+      <footprint>Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Comments">Analog connector</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number">S4B-PH-K-S</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Manufacturer Part Number" value="S4B-PH-K-S"/>
+      <property name="Comments" value="Analog connector"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Connectors and Input Protection"/>
+      <property name="Sheetfile" value="connectors_and_input_protection.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Connectors and Input Protection/" tstamps="/1014d99c-29a8-4f9c-b829-fe95b9d05bc9/"/>
+      <tstamps>3e50d22d-be38-4e74-88b0-78f630b0c139</tstamps>
+    </comp>
+    <comp ref="R401">
+      <value>49R9</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Low tolerance</field>
+        <field name="JLCPCB Part Number">C25120</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RC0402FR-0749R9L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0749R9L"/>
+      <property name="Comments" value="Low tolerance"/>
+      <property name="JLCPCB Part Number" value="C25120"/>
+      <property name="Sheetname" value="Connectors and Input Protection"/>
+      <property name="Sheetfile" value="connectors_and_input_protection.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Connectors and Input Protection/" tstamps="/1014d99c-29a8-4f9c-b829-fe95b9d05bc9/"/>
+      <tstamps>59619aae-dbd7-4632-a027-ac6fab61632e</tstamps>
+    </comp>
+    <comp ref="R402">
+      <value>49R9</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Low tolerance</field>
+        <field name="JLCPCB Part Number">C25120</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RC0402FR-0749R9L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0749R9L"/>
+      <property name="Comments" value="Low tolerance"/>
+      <property name="JLCPCB Part Number" value="C25120"/>
+      <property name="Sheetname" value="Connectors and Input Protection"/>
+      <property name="Sheetfile" value="connectors_and_input_protection.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Connectors and Input Protection/" tstamps="/1014d99c-29a8-4f9c-b829-fe95b9d05bc9/"/>
+      <tstamps>08d1ab17-0271-4a4b-92d8-f867b286ee88</tstamps>
+    </comp>
+    <comp ref="R403">
+      <value>49R9</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Comments">Low tolerance</field>
+        <field name="JLCPCB Part Number">C25120</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RC0402FR-0749R9L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RC0402FR-0749R9L"/>
+      <property name="Comments" value="Low tolerance"/>
+      <property name="JLCPCB Part Number" value="C25120"/>
+      <property name="Sheetname" value="Connectors and Input Protection"/>
+      <property name="Sheetfile" value="connectors_and_input_protection.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Connectors and Input Protection/" tstamps="/1014d99c-29a8-4f9c-b829-fe95b9d05bc9/"/>
+      <tstamps>8c1536cd-80cd-4fb2-8050-c3ab581fe3f6</tstamps>
+    </comp>
+    <comp ref="R404">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Low tolerance</field>
+        <field name="JLCPCB Part Number">C23186</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RC0603FR-135K1L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RC0603FR-135K1L"/>
+      <property name="Comments" value="Low tolerance"/>
+      <property name="JLCPCB Part Number" value="C23186"/>
+      <property name="Sheetname" value="Connectors and Input Protection"/>
+      <property name="Sheetfile" value="connectors_and_input_protection.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Connectors and Input Protection/" tstamps="/1014d99c-29a8-4f9c-b829-fe95b9d05bc9/"/>
+      <tstamps>f4cab7fa-1758-42d5-b224-81381eac147d</tstamps>
+    </comp>
+    <comp ref="R405">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Comments">Low tolerance</field>
+        <field name="JLCPCB Part Number">C23186</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part Number">RC0603FR-135K1L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="RC0603FR-135K1L"/>
+      <property name="Comments" value="Low tolerance"/>
+      <property name="JLCPCB Part Number" value="C23186"/>
+      <property name="Sheetname" value="Connectors and Input Protection"/>
+      <property name="Sheetfile" value="connectors_and_input_protection.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Connectors and Input Protection/" tstamps="/1014d99c-29a8-4f9c-b829-fe95b9d05bc9/"/>
+      <tstamps>54915eb0-a43b-47ef-bb03-9c89579ce4fd</tstamps>
+    </comp>
+    <comp ref="U401">
+      <value>TPD4E1B06</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tpd4e1b06.pdf</datasheet>
+      <fields>
+        <field name="Comments">ESD</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">TPD4E1B06DCKR</field>
+      </fields>
+      <libsource lib="_Galahad_Labs_Symbols" part="TPD4E1B06" description="4-Channel Ultra Low Leakage ESD Protection Device"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Manufacturer Part Number" value="TPD4E1B06DCKR"/>
+      <property name="Comments" value="ESD"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Connectors and Input Protection"/>
+      <property name="Sheetfile" value="connectors_and_input_protection.kicad_sch"/>
+      <property name="ki_description" value="4-Channel Ultra Low Leakage ESD Protection Device"/>
+      <property name="ki_keywords" value="ESD protection low leakage"/>
+      <sheetpath names="/Connectors and Input Protection/" tstamps="/1014d99c-29a8-4f9c-b829-fe95b9d05bc9/"/>
+      <tstamps>a8aa7171-5ea0-40cd-9258-5d3754128f82</tstamps>
+    </comp>
+    <comp ref="U402">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
+      <fields>
+        <field name="Comments">USB CMC</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Manufacturer Part Number">USBLC6-2SC6</field>
+      </fields>
+      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Manufacturer Part Number" value="USBLC6-2SC6"/>
+      <property name="Comments" value="USB CMC"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Connectors and Input Protection"/>
+      <property name="Sheetfile" value="connectors_and_input_protection.kicad_sch"/>
+      <property name="ki_description" value="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="ki_keywords" value="usb ethernet video"/>
+      <sheetpath names="/Connectors and Input Protection/" tstamps="/1014d99c-29a8-4f9c-b829-fe95b9d05bc9/"/>
+      <tstamps>8c779082-a566-44e3-9e0d-55d87c203dd6</tstamps>
+    </comp>
+    <comp ref="U403">
+      <value>TPD4E1B06</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tpd4e1b06.pdf</datasheet>
+      <fields>
+        <field name="Comments">ESD</field>
+        <field name="JLCPCB Part Number">-</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">TPD4E1B06DCKR</field>
+      </fields>
+      <libsource lib="_Galahad_Labs_Symbols" part="TPD4E1B06" description="4-Channel Ultra Low Leakage ESD Protection Device"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Manufacturer Part Number" value="TPD4E1B06DCKR"/>
+      <property name="Comments" value="ESD"/>
+      <property name="JLCPCB Part Number" value="-"/>
+      <property name="Sheetname" value="Connectors and Input Protection"/>
+      <property name="Sheetfile" value="connectors_and_input_protection.kicad_sch"/>
+      <property name="ki_description" value="4-Channel Ultra Low Leakage ESD Protection Device"/>
+      <property name="ki_keywords" value="ESD protection low leakage"/>
+      <sheetpath names="/Connectors and Input Protection/" tstamps="/1014d99c-29a8-4f9c-b829-fe95b9d05bc9/"/>
+      <tstamps>3375cbb6-2b0f-42f6-9d3b-b245f1810941</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="OPA4376">
+      <description>Quad Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/opa376.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPA4376</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/opa376.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_RGBA">
+      <description>RGB LED, red/green/blue/anode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RGBA</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RK" type="passive"/>
+        <pin num="2" name="GK" type="passive"/>
+        <pin num="3" name="BK" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F0" part="STM32F070CBTx">
+      <description>STMicroelectronics Arm Cortex-M0 MCU, 128KB flash, 16KB RAM, 48 MHz, 2.4-3.6V, 37 GPIO, LQFP48</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32f070cb.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F070CBTx</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32f070cb.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PC13" type="bidirectional"/>
+        <pin num="3" name="PC14" type="bidirectional"/>
+        <pin num="4" name="PC15" type="bidirectional"/>
+        <pin num="5" name="PF0" type="bidirectional"/>
+        <pin num="6" name="PF1" type="bidirectional"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0" type="bidirectional"/>
+        <pin num="11" name="PA1" type="bidirectional"/>
+        <pin num="12" name="PA2" type="bidirectional"/>
+        <pin num="13" name="PA3" type="bidirectional"/>
+        <pin num="14" name="PA4" type="bidirectional"/>
+        <pin num="15" name="PA5" type="bidirectional"/>
+        <pin num="16" name="PA6" type="bidirectional"/>
+        <pin num="17" name="PA7" type="bidirectional"/>
+        <pin num="18" name="PB0" type="bidirectional"/>
+        <pin num="19" name="PB1" type="bidirectional"/>
+        <pin num="20" name="PB2" type="bidirectional"/>
+        <pin num="21" name="PB10" type="bidirectional"/>
+        <pin num="22" name="PB11" type="bidirectional"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="bidirectional"/>
+        <pin num="26" name="PB13" type="bidirectional"/>
+        <pin num="27" name="PB14" type="bidirectional"/>
+        <pin num="28" name="PB15" type="bidirectional"/>
+        <pin num="29" name="PA8" type="bidirectional"/>
+        <pin num="30" name="PA9" type="bidirectional"/>
+        <pin num="31" name="PA10" type="bidirectional"/>
+        <pin num="32" name="PA11" type="bidirectional"/>
+        <pin num="33" name="PA12" type="bidirectional"/>
+        <pin num="34" name="PA13" type="bidirectional"/>
+        <pin num="35" name="VSS" type="passive"/>
+        <pin num="36" name="VDD" type="power_in"/>
+        <pin num="37" name="PA14" type="bidirectional"/>
+        <pin num="38" name="PA15" type="bidirectional"/>
+        <pin num="39" name="PB3" type="bidirectional"/>
+        <pin num="40" name="PB4" type="bidirectional"/>
+        <pin num="41" name="PB5" type="bidirectional"/>
+        <pin num="42" name="PB6" type="bidirectional"/>
+        <pin num="43" name="PB7" type="bidirectional"/>
+        <pin num="44" name="BOOT0" type="input"/>
+        <pin num="45" name="PB8" type="bidirectional"/>
+        <pin num="46" name="PB9" type="bidirectional"/>
+        <pin num="47" name="VSS" type="passive"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power_Protection" part="USBLC6-2SC6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_SwitchedCapacitor" part="LM27762">
+      <description>Low-noise inverting charge pump with both positive and negative LDO's, with 2.7V-5.5V input to +1.5 to +5V and -1.5 to -5V Output Voltage, WSON-12</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm27762.pdf</docs>
+      <footprints>
+        <fp>WSON*1EP?3x2mm*P0.5mm*ThermalVias*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM27762</field>
+        <field name="Footprint">Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm27762.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PGOOD" type="open_collector"/>
+        <pin num="2" name="FB+" type="input"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="CP" type="passive"/>
+        <pin num="6" name="OUT-" type="power_out"/>
+        <pin num="7" name="FB-" type="input"/>
+        <pin num="8" name="EN-" type="input"/>
+        <pin num="9" name="C-" type="passive"/>
+        <pin num="10" name="C+" type="passive"/>
+        <pin num="11" name="OUT+" type="power_out"/>
+        <pin num="12" name="EN+" type="input"/>
+        <pin num="13" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TLV62568DBV">
+      <description>High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv62568.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV62568DBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv62568.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SW" type="power_out"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="_Galahad_Labs_Symbols" part="ADS131M02">
+      <description>24-bit ΔΣ ADC, 2 Channels, SPI compatible, PGA 1 to 128, TSSOP-20</description>
+      <docs>https://www.ti.com/lit/ds/symlink/ads131m02.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x6.5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS131M02</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ads131m02.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AVDD" type="power_in"/>
+        <pin num="2" name="AGND" type="power_in"/>
+        <pin num="3" name="AIN0P" type="input"/>
+        <pin num="4" name="AIN0N" type="input"/>
+        <pin num="5" name="AIN1N" type="input"/>
+        <pin num="6" name="AIN1P" type="input"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="NC" type="no_connect"/>
+        <pin num="9" name="NC" type="no_connect"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="SYNCn" type="input"/>
+        <pin num="12" name="CSn" type="input"/>
+        <pin num="13" name="DRDYn" type="output"/>
+        <pin num="14" name="SCLK" type="input"/>
+        <pin num="15" name="DOUT" type="output"/>
+        <pin num="16" name="DIN" type="input"/>
+        <pin num="17" name="CLKIN" type="input"/>
+        <pin num="18" name="CAP" type="output"/>
+        <pin num="19" name="DGND" type="power_in"/>
+        <pin num="20" name="DVDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="_Galahad_Labs_Symbols" part="BMI323">
+      <description>Small, versatile 6DoF sensor module, LGA-14</description>
+      <docs>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi323-ds000.pdf</docs>
+      <footprints>
+        <fp>Bosch*LGA*3x2.5mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BMI323</field>
+        <field name="Footprint">Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm</field>
+        <field name="Datasheet">https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi323-ds000.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO" type="bidirectional"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="INT1" type="bidirectional"/>
+        <pin num="5" name="VDDIO" type="power_in"/>
+        <pin num="6" name="GNDIO" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="INT2" type="bidirectional"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="NC" type="no_connect"/>
+        <pin num="12" name="CSB" type="input"/>
+        <pin num="13" name="SCx" type="input"/>
+        <pin num="14" name="SDx" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="_Galahad_Labs_Symbols" part="Filter_EMI_CommonMode_12x43">
+      <description>EMI 2-inductor common mode filter</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>L_*</fp>
+        <fp>L_CommonMode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FL</field>
+        <field name="Value">Filter_EMI_CommonMode</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="_Galahad_Labs_Symbols" part="TPD4E1B06">
+      <description>4-Channel Ultra Low Leakage ESD Protection Device</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tpd4e1b06.pdf</docs>
+      <footprints>
+        <fp>USON*2.5x1.0mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPD4E1B06</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tpd4e1b06.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="IO2" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="IO3" type="passive"/>
+        <pin num="5" name="IO4" type="passive"/>
+        <pin num="6" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="MCU_ST_STM32F0">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//MCU_ST_STM32F0.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_SwitchedCapacitor">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_SwitchedCapacitor.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="_Galahad_Labs_Symbols">
+      <uri>/Users/merrick/Library/CloudStorage/OneDrive-Personal/KiCad Libraries/Symbols/_Galahad_Labs_Symbols.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="C104" pin="1" pintype="passive"/>
+      <node ref="C105" pin="1" pintype="passive"/>
+      <node ref="C106" pin="1" pintype="passive"/>
+      <node ref="C107" pin="1" pintype="passive"/>
+      <node ref="C110" pin="1" pintype="passive"/>
+      <node ref="C113" pin="1" pintype="passive"/>
+      <node ref="C208" pin="2" pintype="passive"/>
+      <node ref="C209" pin="2" pintype="passive"/>
+      <node ref="C307" pin="2" pintype="passive"/>
+      <node ref="C308" pin="1" pintype="passive"/>
+      <node ref="D101" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="D201" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J401" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L101" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L202" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="R104" pin="1" pintype="passive"/>
+      <node ref="R108" pin="1" pintype="passive"/>
+      <node ref="R207" pin="1" pintype="passive"/>
+      <node ref="U101" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U102" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U102" pin="24" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U102" pin="36" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U102" pin="48" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U302" pin="11" pinfunction="SYNCn" pintype="input"/>
+      <node ref="U302" pin="20" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U401" pin="2" pinfunction="IO2" pintype="passive"/>
+    </net>
+    <net code="2" name="+3.3VA">
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="C305" pin="1" pintype="passive"/>
+      <node ref="C306" pin="2" pintype="passive"/>
+      <node ref="C311" pin="1" pintype="passive"/>
+      <node ref="R202" pin="2" pintype="passive"/>
+      <node ref="U101" pin="5" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U201" pin="11" pinfunction="OUT+" pintype="power_out"/>
+      <node ref="U301" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U302" pin="1" pinfunction="AVDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="C204" pin="1" pintype="passive"/>
+      <node ref="C210" pin="1" pintype="passive"/>
+      <node ref="L201" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="U202" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="U202" pin="4" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="4" name="-3V3">
+      <node ref="C205" pin="1" pintype="passive"/>
+      <node ref="C312" pin="1" pintype="passive"/>
+      <node ref="R205" pin="2" pintype="passive"/>
+      <node ref="U201" pin="6" pinfunction="OUT-" pintype="power_out"/>
+      <node ref="U301" pin="11" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="5" name="/Analog Front-end/ADC_CAP">
+      <node ref="C310" pin="1" pintype="passive"/>
+      <node ref="U302" pin="18" pinfunction="CAP" pintype="output"/>
+    </net>
+    <net code="6" name="/Analog Front-end/ADC_SCLK">
+      <node ref="R311" pin="1" pintype="passive"/>
+      <node ref="U302" pin="14" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="7" name="/Analog Front-end/CONN_A_AA">
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="U301" pin="1" pintype="output"/>
+      <node ref="U301" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="8" name="/Analog Front-end/CONN_A_ADC">
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="U302" pin="3" pinfunction="AIN0P" pintype="input"/>
+    </net>
+    <net code="9" name="/Analog Front-end/CONN_A_BUF">
+      <node ref="C303" pin="1" pintype="passive"/>
+      <node ref="R303" pin="2" pintype="passive"/>
+      <node ref="R305" pin="1" pintype="passive"/>
+      <node ref="U301" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="10" name="/Analog Front-end/CONN_B_AA">
+      <node ref="R302" pin="1" pintype="passive"/>
+      <node ref="U301" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U301" pin="14" pintype="output"/>
+    </net>
+    <net code="11" name="/Analog Front-end/CONN_B_ADC">
+      <node ref="C302" pin="1" pintype="passive"/>
+      <node ref="R302" pin="2" pintype="passive"/>
+      <node ref="U302" pin="6" pinfunction="AIN1P" pintype="input"/>
+    </net>
+    <net code="12" name="/Analog Front-end/CONN_B_BUF">
+      <node ref="C304" pin="1" pintype="passive"/>
+      <node ref="R306" pin="2" pintype="passive"/>
+      <node ref="R307" pin="1" pintype="passive"/>
+      <node ref="U301" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="13" name="/Analog Front-end/CONN_REF_AA">
+      <node ref="R304" pin="1" pintype="passive"/>
+      <node ref="U301" pin="8" pintype="output"/>
+      <node ref="U301" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="14" name="/Analog Front-end/CONN_REF_ADC">
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C302" pin="2" pintype="passive"/>
+      <node ref="R304" pin="2" pintype="passive"/>
+      <node ref="U302" pin="4" pinfunction="AIN0N" pintype="input"/>
+      <node ref="U302" pin="5" pinfunction="AIN1N" pintype="input"/>
+    </net>
+    <net code="15" name="/Analog Front-end/CONN_REF_BUF">
+      <node ref="C309" pin="1" pintype="passive"/>
+      <node ref="R308" pin="2" pintype="passive"/>
+      <node ref="R310" pin="1" pintype="passive"/>
+      <node ref="U301" pin="10" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="16" name="/Analog Front-end/CONN_UNUSED_AA">
+      <node ref="U301" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U301" pin="7" pintype="output"/>
+    </net>
+    <net code="17" name="/BOOT0">
+      <node ref="R107" pin="2" pintype="passive"/>
+      <node ref="U102" pin="44" pinfunction="BOOT0" pintype="input"/>
+    </net>
+    <net code="18" name="/Connectors and Input Protection/CC1">
+      <node ref="J402" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R405" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="/Connectors and Input Protection/CC2">
+      <node ref="J402" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R404" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="/Connectors and Input Protection/CMC_USB_DN">
+      <node ref="FL401" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U402" pin="6" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="21" name="/Connectors and Input Protection/CMC_USB_DP">
+      <node ref="FL401" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U402" pin="4" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="22" name="/Connectors and Input Protection/CONN_NRST">
+      <node ref="J401" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R403" pin="1" pintype="passive"/>
+      <node ref="U401" pin="4" pinfunction="IO3" pintype="passive"/>
+    </net>
+    <net code="23" name="/Connectors and Input Protection/CONN_SWCLK">
+      <node ref="J401" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R402" pin="1" pintype="passive"/>
+      <node ref="U401" pin="5" pinfunction="IO4" pintype="passive"/>
+    </net>
+    <net code="24" name="/Connectors and Input Protection/CONN_SWDIO">
+      <node ref="J401" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R401" pin="1" pintype="passive"/>
+      <node ref="U401" pin="1" pinfunction="IO1" pintype="passive"/>
+    </net>
+    <net code="25" name="/Connectors and Input Protection/CONN_USB_DN">
+      <node ref="J402" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J402" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U402" pin="1" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="26" name="/Connectors and Input Protection/CONN_USB_DP">
+      <node ref="J402" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J402" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U402" pin="3" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="27" name="/IMU_INT1">
+      <node ref="U101" pin="4" pinfunction="INT1" pintype="bidirectional"/>
+      <node ref="U102" pin="25" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/IMU_INT2">
+      <node ref="U101" pin="9" pinfunction="INT2" pintype="bidirectional"/>
+      <node ref="U102" pin="30" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/LED_B">
+      <node ref="D101" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="R106" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="/LED_G">
+      <node ref="D101" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="R105" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="/LED_R">
+      <node ref="D101" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="R103" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="/MCU_VDDA">
+      <node ref="C108" pin="1" pintype="passive"/>
+      <node ref="C109" pin="1" pintype="passive"/>
+      <node ref="L101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U102" pin="9" pinfunction="VDDA" pintype="power_in"/>
+    </net>
+    <net code="33" name="/OSC_IN">
+      <node ref="C111" pin="1" pintype="passive"/>
+      <node ref="U102" pin="5" pinfunction="PF0" pintype="bidirectional"/>
+      <node ref="Y101" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="34" name="/OSC_OUT">
+      <node ref="R102" pin="2" pintype="passive"/>
+      <node ref="U102" pin="6" pinfunction="PF1" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/Power Supply/BUCK_DIV">
+      <node ref="R209" pin="2" pintype="passive"/>
+      <node ref="R210" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="/Power Supply/BUCK_FB">
+      <node ref="C209" pin="1" pintype="passive"/>
+      <node ref="R207" pin="2" pintype="passive"/>
+      <node ref="R209" pin="1" pintype="passive"/>
+      <node ref="U202" pin="5" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="37" name="/Power Supply/BUCK_SW">
+      <node ref="L202" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U202" pin="3" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="38" name="/Power Supply/LDO_CP">
+      <node ref="C207" pin="1" pintype="passive"/>
+      <node ref="U201" pin="5" pinfunction="CP" pintype="passive"/>
+    </net>
+    <net code="39" name="/Power Supply/LDO_FB+">
+      <node ref="R202" pin="1" pintype="passive"/>
+      <node ref="R203" pin="2" pintype="passive"/>
+      <node ref="U201" pin="2" pinfunction="FB+" pintype="input"/>
+    </net>
+    <net code="40" name="/Power Supply/LDO_FB-">
+      <node ref="R204" pin="2" pintype="passive"/>
+      <node ref="R205" pin="1" pintype="passive"/>
+      <node ref="U201" pin="7" pinfunction="FB-" pintype="input"/>
+    </net>
+    <net code="41" name="/Power Supply/LDO_FILT">
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="R201" pin="2" pintype="passive"/>
+      <node ref="U201" pin="12" pinfunction="EN+" pintype="input"/>
+      <node ref="U201" pin="3" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U201" pin="8" pinfunction="EN-" pintype="input"/>
+    </net>
+    <net code="42" name="/Power Supply/LDO_FLYN">
+      <node ref="C206" pin="2" pintype="passive"/>
+      <node ref="U201" pin="9" pinfunction="C-" pintype="passive"/>
+    </net>
+    <net code="43" name="/Power Supply/LDO_FLYP">
+      <node ref="C206" pin="1" pintype="passive"/>
+      <node ref="U201" pin="10" pinfunction="C+" pintype="passive"/>
+    </net>
+    <net code="44" name="/Power Supply/LED_PWR">
+      <node ref="D201" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R206" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="/SPI2_MISO">
+      <node ref="U101" pin="1" pinfunction="SDO" pintype="bidirectional"/>
+      <node ref="U102" pin="27" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/SPI2_MOSI">
+      <node ref="U101" pin="14" pinfunction="SDx" pintype="bidirectional"/>
+      <node ref="U102" pin="28" pinfunction="PB15" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/SPI2_NSS">
+      <node ref="R104" pin="2" pintype="passive"/>
+      <node ref="U101" pin="12" pinfunction="CSB" pintype="input"/>
+      <node ref="U102" pin="46" pinfunction="PB9" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/SPI2_SCK">
+      <node ref="U101" pin="13" pinfunction="SCx" pintype="input"/>
+      <node ref="U102" pin="26" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/TIM3_CH1">
+      <node ref="R106" pin="1" pintype="passive"/>
+      <node ref="U102" pin="40" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/TIM3_CH2">
+      <node ref="R105" pin="1" pintype="passive"/>
+      <node ref="U102" pin="41" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/TIM16_CH1">
+      <node ref="R103" pin="1" pintype="passive"/>
+      <node ref="U102" pin="45" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/XTAL_IN">
+      <node ref="C112" pin="1" pintype="passive"/>
+      <node ref="R102" pin="1" pintype="passive"/>
+      <node ref="Y101" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="53" name="ADC_INT">
+      <node ref="U102" pin="19" pinfunction="PB1" pintype="bidirectional"/>
+      <node ref="U302" pin="13" pinfunction="DRDYn" pintype="output"/>
+    </net>
+    <net code="54" name="CONN_A">
+      <node ref="J403" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R303" pin="1" pintype="passive"/>
+      <node ref="U403" pin="1" pinfunction="IO1" pintype="passive"/>
+    </net>
+    <net code="55" name="CONN_B">
+      <node ref="J403" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R306" pin="1" pintype="passive"/>
+      <node ref="U403" pin="4" pinfunction="IO3" pintype="passive"/>
+    </net>
+    <net code="56" name="CONN_REF">
+      <node ref="J403" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R308" pin="1" pintype="passive"/>
+      <node ref="U403" pin="2" pinfunction="IO2" pintype="passive"/>
+    </net>
+    <net code="57" name="GND">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="C104" pin="2" pintype="passive"/>
+      <node ref="C105" pin="2" pintype="passive"/>
+      <node ref="C106" pin="2" pintype="passive"/>
+      <node ref="C107" pin="2" pintype="passive"/>
+      <node ref="C108" pin="2" pintype="passive"/>
+      <node ref="C109" pin="2" pintype="passive"/>
+      <node ref="C110" pin="2" pintype="passive"/>
+      <node ref="C111" pin="2" pintype="passive"/>
+      <node ref="C112" pin="2" pintype="passive"/>
+      <node ref="C113" pin="2" pintype="passive"/>
+      <node ref="C114" pin="2" pintype="passive"/>
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="C203" pin="2" pintype="passive"/>
+      <node ref="C204" pin="2" pintype="passive"/>
+      <node ref="C205" pin="2" pintype="passive"/>
+      <node ref="C207" pin="2" pintype="passive"/>
+      <node ref="C208" pin="1" pintype="passive"/>
+      <node ref="C210" pin="2" pintype="passive"/>
+      <node ref="C303" pin="2" pintype="passive"/>
+      <node ref="C304" pin="2" pintype="passive"/>
+      <node ref="C305" pin="2" pintype="passive"/>
+      <node ref="C306" pin="1" pintype="passive"/>
+      <node ref="C307" pin="1" pintype="passive"/>
+      <node ref="C308" pin="2" pintype="passive"/>
+      <node ref="C309" pin="2" pintype="passive"/>
+      <node ref="C310" pin="2" pintype="passive"/>
+      <node ref="C311" pin="2" pintype="passive"/>
+      <node ref="C312" pin="2" pintype="passive"/>
+      <node ref="C401" pin="1" pintype="passive"/>
+      <node ref="J401" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J401" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J401" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J402" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J402" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J402" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J402" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J403" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R107" pin="1" pintype="passive"/>
+      <node ref="R203" pin="1" pintype="passive"/>
+      <node ref="R204" pin="1" pintype="passive"/>
+      <node ref="R206" pin="2" pintype="passive"/>
+      <node ref="R210" pin="2" pintype="passive"/>
+      <node ref="R305" pin="2" pintype="passive"/>
+      <node ref="R307" pin="2" pintype="passive"/>
+      <node ref="R310" pin="2" pintype="passive"/>
+      <node ref="R404" pin="2" pintype="passive"/>
+      <node ref="R405" pin="2" pintype="passive"/>
+      <node ref="SW102" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U101" pin="6" pinfunction="GNDIO" pintype="power_in"/>
+      <node ref="U101" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U102" pin="23" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U102" pin="35" pinfunction="VSS" pintype="passive"/>
+      <node ref="U102" pin="47" pinfunction="VSS" pintype="passive"/>
+      <node ref="U102" pin="8" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U201" pin="1" pinfunction="PGOOD" pintype="open_collector"/>
+      <node ref="U201" pin="13" pinfunction="PAD" pintype="power_in"/>
+      <node ref="U201" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U202" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U301" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U302" pin="19" pinfunction="DGND" pintype="power_in"/>
+      <node ref="U302" pin="2" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U401" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U402" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U403" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y101" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y101" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="58" name="NRST">
+      <node ref="C114" pin="1" pintype="passive"/>
+      <node ref="R108" pin="2" pintype="passive"/>
+      <node ref="R403" pin="2" pintype="passive"/>
+      <node ref="SW102" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U102" pin="7" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="59" name="RCC_MCO">
+      <node ref="U102" pin="29" pinfunction="PA8" pintype="bidirectional"/>
+      <node ref="U302" pin="17" pinfunction="CLKIN" pintype="input"/>
+    </net>
+    <net code="60" name="SPI1_MISO">
+      <node ref="U102" pin="16" pinfunction="PA6" pintype="bidirectional"/>
+      <node ref="U302" pin="15" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="61" name="SPI1_MOSI">
+      <node ref="U102" pin="17" pinfunction="PA7" pintype="bidirectional"/>
+      <node ref="U302" pin="16" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="62" name="SPI1_NSS">
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="U102" pin="14" pinfunction="PA4" pintype="bidirectional"/>
+      <node ref="U302" pin="12" pinfunction="CSn" pintype="input"/>
+    </net>
+    <net code="63" name="SPI1_SCK">
+      <node ref="R311" pin="2" pintype="passive"/>
+      <node ref="U102" pin="15" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="SYS_SWCLK">
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="U102" pin="37" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="SYS_SWDIO">
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="U102" pin="34" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="USB_DN">
+      <node ref="FL401" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U102" pin="32" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="USB_DP">
+      <node ref="FL401" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U102" pin="33" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="VBUS">
+      <node ref="C203" pin="1" pintype="passive"/>
+      <node ref="C401" pin="2" pintype="passive"/>
+      <node ref="J402" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J402" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J402" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J402" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="L201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U402" pin="5" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="69" name="unconnected-(J401-Pin_6-Pad6)">
+      <node ref="J401" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J401-Pin_7-Pad7)">
+      <node ref="J401" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J401-Pin_8-Pad8)">
+      <node ref="J401" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J402-SBU1-PadA8)">
+      <node ref="J402" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(J402-SBU2-PadB8)">
+      <node ref="J402" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(J402-SHIELD-PadS1)">
+      <node ref="J402" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U101-NC-Pad2)">
+      <node ref="U101" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U101-NC-Pad3)">
+      <node ref="U101" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U101-NC-Pad10)">
+      <node ref="U101" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U101-NC-Pad11)">
+      <node ref="U101" pin="11" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U102-PA0-Pad10)">
+      <node ref="U102" pin="10" pinfunction="PA0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U102-PA1-Pad11)">
+      <node ref="U102" pin="11" pinfunction="PA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U102-PA2-Pad12)">
+      <node ref="U102" pin="12" pinfunction="PA2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U102-PA3-Pad13)">
+      <node ref="U102" pin="13" pinfunction="PA3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U102-PA10-Pad31)">
+      <node ref="U102" pin="31" pinfunction="PA10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U102-PA15-Pad38)">
+      <node ref="U102" pin="38" pinfunction="PA15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U102-PB0-Pad18)">
+      <node ref="U102" pin="18" pinfunction="PB0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U102-PB2-Pad20)">
+      <node ref="U102" pin="20" pinfunction="PB2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U102-PB3-Pad39)">
+      <node ref="U102" pin="39" pinfunction="PB3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U102-PB6-Pad42)">
+      <node ref="U102" pin="42" pinfunction="PB6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U102-PB7-Pad43)">
+      <node ref="U102" pin="43" pinfunction="PB7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U102-PB10-Pad21)">
+      <node ref="U102" pin="21" pinfunction="PB10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U102-PB11-Pad22)">
+      <node ref="U102" pin="22" pinfunction="PB11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U102-PC13-Pad2)">
+      <node ref="U102" pin="2" pinfunction="PC13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U102-PC14-Pad3)">
+      <node ref="U102" pin="3" pinfunction="PC14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U102-PC15-Pad4)">
+      <node ref="U102" pin="4" pinfunction="PC15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U302-NC-Pad7)">
+      <node ref="U302" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U302-NC-Pad8)">
+      <node ref="U302" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U302-NC-Pad9)">
+      <node ref="U302" pin="9" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U302-NC-Pad10)">
+      <node ref="U302" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U401-NC-Pad6)">
+      <node ref="U401" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U403-IO4-Pad5)">
+      <node ref="U403" pin="5" pinfunction="IO4" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U403-NC-Pad6)">
+      <node ref="U403" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
